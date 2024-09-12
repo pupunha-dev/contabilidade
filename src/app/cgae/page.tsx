@@ -41,8 +41,23 @@ export default function Cgae() {
         <h1 className="text-lg font-bold">Cap 2 - Patrimônio e Resultado</h1>
         <ul className="list-disc">
           <li className="ml-4">ATIVO = BENS + DIREITOS</li>
-          <li className="ml-4">BENS: Sob a ótica da contabilidade são itens tangíveis e intangíveis quantificáveis em dinheiro e que integrarão o patrimônio da entidade para utilização imediata. São a parte da riqueza de uma entidade que a ela pertence e que está em seu poder.</li>
-          <li className="ml-4">ATIVO = BENS + DIREITOS</li>
+          <li className="ml-4">PATRIMÔNIO LÍQUIDO = BENS + DIREITOS - OBRIGAÇÕES | PL = ATIVO - PASSIVO (Exigível)</li>
+          <li className="ml-4"><b>Equação Fundamental do Patrimônio</b>: BENS + DIREITOS = OBRIGAÇÕES + PL | ATIVO = PASSIVO (exigível) + PL</li>
+          <li className="ml-4"><b>Bens</b>: Sob a ótica da contabilidade são itens tangíveis e intangíveis quantificáveis em dinheiro e que integrarão o patrimônio da entidade para utilização imediata. São a parte da riqueza de uma entidade que a ela pertence e que está em seu poder.</li>
+          <li className="ml-4"><b>Direitos</b>: a parte da riqueza da entidade que a ela pertence, mas que está em poder de terceiros. Não está disponível para utilização imediata.</li>
+          <li className="ml-4"><b>Créditos de funcionamento</b>: obtidos em função da atividade operacional da empresa. <cite>Ex: vendas a prazo para clientes</cite></li>
+          <li className="ml-4"><b>Créditos de financiamento</b>: obtidos em função das operações financeiras da empresa. <cite>Ex: Empréstimos a terceiros.</cite></li>
+          <li className="ml-4"><b>Obrigações</b>: Débitos ou Dívidas da Entidade. direitos de terceiros em poder da entidade.</li>
+          <li className="ml-4"><b>Débitos de funcionamento</b>: obrigações decorrentes da atividade operacional da entidade. <cite>Ex: débito com fornecedores.</cite></li>
+          <li className="ml-4"><b>Débitos de financiamento</b>: obigações decorrentes das operações de financiamento da entidade. <cite>Ex: débitos com empréstimos contraídos.</cite></li>
+          <li className="ml-4 text-purple-800"><b>Débito</b> é um termo mais genérico para todas as obrigações da empresa. <b>Dívidas</b> são um tipo de débito mais formal, geralmente relacionados a empréstimos ou financiamentos, mais estruturados, com prazos e outras condições contratuais.</li>
+          <li className="ml-4"><p>Ingresso de recursos patrimoniais</p> independem da atividade principal da empresa. <cite>Ex: Capital dos Sócios, empréstimos e adiantamento de clientes, desinvestimentos.</cite></li>
+          <li className="ml-4"><b>Saída de recurso patrimonial</b> são saídas que <b>independem</b> da atividade principal da empresa.</li>
+          <li className="ml-4"><b>Saída de recursos do resultado</b> são saídas que <b>dependem</b> da atividade principal da empresa.</li>
+          <li className="ml-4"><b>Gasto</b>: geração da obrigação. Entrega ou promessa de entrega de um ativo. <cite>Ex: adquirir um serviço mesmo não pagando na hora.</cite></li>
+          <li className="ml-4"><b>Desembolso</b>: efetivo pagamento por um bem ou serviço. Pode ocorrer durante ou após o gasto.</li>
+          <li className="ml-4"></li>
+          <li className="ml-4"></li>
         </ul>
       </div>
     </div>
